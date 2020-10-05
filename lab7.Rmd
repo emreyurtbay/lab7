@@ -101,6 +101,6 @@ historical tornado data and fire station data? What other data may be valuable
 to you for your analysis?
 </div>
 
-For each district, you can count the number of tornadoes that touched down within the district's boundaries in the last 20 years. School districts with fire stations near by may be better positioned to deal with the damage of a tornado, so you can adjust by some factor related to fire station distance to determine risk.
+For each district, you can count the number of tornadoes that touched down within the district's boundaries in the last 20 years to determine a school district's base risk score, which can be rated on a numeric scale, perhaps 1-10, where a higher number signifies a higher risk. School districts with fire stations near by may be better positioned to deal with the damage of a tornado, so you can adjust by some factor related to fire station distance to further determine risk.
 
 
