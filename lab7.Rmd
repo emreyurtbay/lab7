@@ -49,7 +49,7 @@ in folder `data`. Below, load your data with `readRDS()`
 </div>
 
 ```{r load_tornadoes}
-
+tornadoes <- readRDS("ok_tornadoes")
 ```
 
 <br/>
@@ -68,7 +68,7 @@ data with `readRDS()`.
 </div>
 
 ```{r load_school_districts}
-
+school <- readRDS("school_districts")
 ```
 
 <br/>
@@ -86,7 +86,7 @@ data with `readRDS()`.
 </div>
 
 ```{r load_fire_stations}
-
+fire <- readRDS("fire_stations")
 ```
 
 <br/>
@@ -101,5 +101,6 @@ historical tornado data and fire station data? What other data may be valuable
 to you for your analysis?
 </div>
 
+For each district, you can count the number of tornadoes that touched down within the district's boundaries in the last 20 years. School districts with fire stations near by may be better positioned to deal with the damage of a tornado, so you can adjust by some factor related to fire station distance to determine risk.
 
 
